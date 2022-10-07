@@ -1,3 +1,27 @@
 body{
     background-color: lightblue;
 }
+
+#fileUploadArea{
+    width: 100%;
+}
+#editText{
+    float: left;
+    width: 40%;
+    height: 350px;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 100px;
+    margin-left: 10%;
+    overflow-y: auto;
+    margin-right: 10px;
+}
+
+#fileOutput{
+    width: 40%;
+    height: 350px;
+    background-color: red;
+    border-radius: 10px;
+    float: left;
+    margin-top: 100px;
+}

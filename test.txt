@@ -1,0 +1,28 @@
+In our lab, we were tasked with deciding between two substances, ammonium chloride and
+ammonium nitrate to make a system capable of cooling a drinks can by 5 degrees celsius. We deliberated
+on which substance to go with, when we found out that ammonium nitrate is shock sensitive to aluminum,
+effectively making it an explosive which immediately disqualified it from qualification. Receiving
+confirmation from our lab TA, we began calculating how much ammonium chloride we’d need and the
+theoretical amount can be seen in the table above in the Design and Best Results for your Proposed
+Product section as well as in the appendix in our sample calculations.
+We attempted 2 trials, once with 13.28g of ammonium chloride and another with 15.01g (our best
+trial whose information is laid out in the table above). We found that with 15.01g of ammonium chloride,
+the temperature of the water inside the can dropped by 5.4 degrees celsius in less than 3 minutes. The
+table may say the Time for Temperature Change was 3 minutes, but that was just simply how long we
+measured the temperature for, the temperature stabilized at 20.1 °C roughly 2 minutes and 15 seconds.
+Nonetheless, this time is well within the 5 minute limit the contract stated, so it is safe to say our product
+was incredibly successful. It was successful as well as it fell in the constraints given to us. The solubility
+of ammonium chloride is 37.2g / 100g of water, and 15.01g is well under that threshold. The cost is a bit
+of an issue, coming out to $1.87 every time you want to cool your drink, but we can’t do much to change
+that seeing that the rate is fixed.
+We decided not to take the first trial into account because we didn’t measure the initial
+temperature correctly. We were told to agitate the crucible to get the ammonium chloride to fully dissolve
+in the surrounding water, and thus allow for maximum heat transfer. We mistakenly began agitating,
+thereby speeding up the reaction, before we could get an initial reading of the water temperature inside
+the can. Thus, there was only a 3.2 °C drop in temperature over 173 seconds. We estimated that the actual
+initial temperature was 28 °C, but that’s incredibly unreliable so we decided to not use that trial in proving
+the functionality of our product.
+No experiment is without its flaws, and the same can be said for this lab. There’s a couple of
+instances that could’ve limited/hindered our results. Firstly, we didn’t fully dry out the crucible and the
+inside of the can, potentially leaving some water still in both equipment and thus changing the overall
+volume of water because we poured in 100.0 mL of water into both. On the topic of measurements
