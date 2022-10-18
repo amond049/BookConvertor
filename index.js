@@ -30,7 +30,9 @@ function getFile(event){
                 Promise.all(pagesPromises).then(function (pagesText) {
     
                     // Display text of all the pages in the console
-                    console.log(pagesText);
+                    for (var i = 0; i < pagesText.length; i++){
+                        console.log(pagesText[i]);
+                    }
                 });
     
             }, function (reason) {
