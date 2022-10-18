@@ -28,11 +28,14 @@ function getFile(event){
                 }
     
                 Promise.all(pagesPromises).then(function (pagesText) {
-    
+                    
+                    var text = "";
                     // Display text of all the pages in the console
                     for (var i = 0; i < pagesText.length; i++){
-                        console.log(pagesText[i]);
+                        text += pagesText[i];
                     }
+
+                    document.getElementById("editTextField").innerHTML = text;
                 });
     
             }, function (reason) {
