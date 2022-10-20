@@ -16,6 +16,8 @@ function getFile(event){
         } else if (fileType == "pdf"){
             pdfjsLib.GlobalWorkerOptions.workerSrc = "build/pdf.worker.js";
             
+            console.log(input.files[0].name);
+            
             pdfjsLib.getDocument(input.files[0].name).promise.then(function (pdf) {
                 var pdfDocument = pdf;
                 var pagesPromises = [];
