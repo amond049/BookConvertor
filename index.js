@@ -9,16 +9,17 @@ function getFile(event){
 
         // The following lines gets you the file type!
         let fileType = input.files[0].name.split(".")[1];
-        
-        console.log(fileType);
         if (fileType == "txt"){
             placeFileContent(document.getElementById('editTextField'), input.files[0])
         } else if (fileType == "pdf"){
+            
+            var fileReader = new FileReader();
             pdfjsLib.GlobalWorkerOptions.workerSrc = "build/pdf.worker.js";
             
-            console.log(input.files[0].name);
-            
-            pdfjsLib.getDocument(input.files[0].name).promise.then(function (pdf) {
+            fileReader.onload = function(){
+                var typedArray = new Unit8Array(this.result);
+                
+                pdfjsLib.getDocument(typedArray).promise.then(function (pdf) {
                 var pdfDocument = pdf;
                 var pagesPromises = [];
     
@@ -44,6 +45,8 @@ function getFile(event){
                 // PDF loading error
                 console.error(reason);
             });
+                
+            }            
 
             function getPageText(pageNum, PDFDocumentInstance) {
                 // Return a Promise that is solved once the text of the page is retrieven
